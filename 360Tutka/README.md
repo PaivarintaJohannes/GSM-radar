@@ -52,6 +52,3 @@ if the button is pressed again.
 
 ## Contributing
 If you find any issues or have suggestions for improvement, please submit an issue or pull request on GitHub.
-
-## License
-This code is licensed under the MIT License. See the LICENSE file for details.
