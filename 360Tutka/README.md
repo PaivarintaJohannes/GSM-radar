@@ -1,5 +1,5 @@
 # Arduino Radar System with SMS Alerts
-By Johannes Päivärinta, Ville Niemi Jere Siermala and Janne Pauna
+By Johannes Päivärinta, Ville Niemi, Jere Siermala and Janne Pauna
 
 This is an Arduino-based radar system that uses two ultrasonic sensors and a SIM900 module to 
 detect objects within a certain range and alert the user via SMS if an object 
