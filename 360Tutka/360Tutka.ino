@@ -102,7 +102,7 @@ int tutka1() {
   // Serial.print(distance);
   // Serial.println(" cm");
  
-  if (distance <= 10) {
+  if (distance <= 10) {  // <---- Define the alert-range here!
     // Serial.println("\nTutka1 havaitsi kohteen\n");
     halytys();
   }
@@ -154,11 +154,11 @@ void sendSMS() {
 
   // REPLACE THE X's WITH THE RECIPIENT'S MOBILE NUMBER
   // USE INTERNATIONAL FORMAT CODE FOR MOBILE NUMBERS
-  SIM900.println("AT+CMGS=\"+358443286650\""); 
+  SIM900.println("AT+CMGS=\"xxxxxx\"");  
   delay(100);
   
   // REPLACE WITH YOUR OWN SMS MESSAGE CONTENT
-  SIM900.println("Tutka havaitsi kohteen."); 
+  SIM900.println("Tutka havaitsi kohteen.");  //<-- Your alert-message here
   delay(100);
 
   // End AT command with a ^Z, ASCII code 26
