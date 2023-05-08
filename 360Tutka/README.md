@@ -7,6 +7,8 @@ is detected. The system also includes a servo motor that rotates the sensors to
 scan a wider area. The code is written in C++ and requires the Servo and 
 SoftwareSerial libraries to be installed in the Arduino IDE.
 
+<img src="radarposteri.png">
+
 ## Installation
 Install the latest version of the Arduino IDE.
 Clone or download the repository to your local machine.
